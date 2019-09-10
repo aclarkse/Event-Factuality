@@ -1,0 +1,38 @@
+# Library dependencies for the python code.  You need to install these with
+# `pip install -r requirements.txt` before you can run this.
+
+#### ESSENTIAL LIBRARIES FOR MAIN FUNCTIONALITY ####
+
+# Neural Net and related libraries
+keras==2.0.5
+numpy
+
+## Tensorflow Requirements ##
+# Tensorflow is required to run this code but depends on specific configurations. Install from:
+# https://www.tensorflow.org/get_started/os_setup#overview
+# If you want to use the GPU version, you will also need Nvidia's CUDA toolkit and cuDNN:
+# https://developer.nvidia.com/cuda-downloads
+# https://developer.nvidia.com/cudnn
+# Note that if you want to use the GPU version, you have to `pip uninstall tensorflow`
+# and `pip install tensorflow-gpu`, since both cannot coexist. 
+tensorflow>=1.0.1
+
+# Used to read and process the data
+pandas
+
+# Used for test-train split and model evaluation
+scikit-learn
+
+# Used to get word embeddings
+flair
+
+# Used for saving and loading pre-trained word embeddings
+pickle
+
+# Used for visualization
+matplotlib
+
+#### NICE-TO-HAVE LIBRARIES FOR MAIN CODE ####
+
+# If you wish to use tokenizer other than the built-in Keras one
+spacy
