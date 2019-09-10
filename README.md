@@ -9,3 +9,6 @@ This project explores the use of various word embeddings on the event factuality
 you wish to replicate my results, please refer to the link below for access to the data.
 
 https://catalog.ldc.upenn.edu/LDC2009T23
+
+## Requirements
+Please see requirements.txt
