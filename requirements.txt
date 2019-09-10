@@ -34,5 +34,8 @@ matplotlib
 
 #### NICE-TO-HAVE LIBRARIES FOR MAIN CODE ####
 
-# If you wish to use tokenizer other than the built-in Keras one
+# Used for tracking progress
+tqdm
+
+# If you wish to use a tokenizer other than the built-in Keras one
 spacy
