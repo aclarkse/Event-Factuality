@@ -20,5 +20,5 @@ def get_glove(word2idx):
 
 # save embeddings
 pickle_out = open("glove_100.pickle","wb")
-pickle.dump(glove_embeddings, pickle_out)
+pickle.dump(embedding_matrix, pickle_out)
 pickle_out.close()
