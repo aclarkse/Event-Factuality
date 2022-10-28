@@ -2,7 +2,7 @@
 
 **Authors:** Andrea Clark-Sevilla
 
-**Contact:** aclarkse@ur.rochester.edu
+**Contact:** andrea.c.sev@gmail.com
 
 ## Overview
 This project explores the use of various word embeddings on the event factuality task using the FactBank 1.0 corpus (Sauri and Pustejovsky, 2009). If
